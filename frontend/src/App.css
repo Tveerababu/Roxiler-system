@@ -1,0 +1,91 @@
+.App {
+  background-image: linear-gradient(grey,rgb(255, 255, 255));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 180px;
+}
+
+.heading-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 125px;
+  width: 180px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container h1 {
+  color: #404040;
+  font-size: 28px;
+  font-family: fantasy;
+  font-weight: 100;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-container input {
+  font-family: cursive;
+  background-color: #8cedf882;
+  color: #000;
+  font-size: 18px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  outline: none;
+  border: 0.5px solid grey;
+}
+
+.filter-container input::placeholder {
+  color: #474642;
+}
+
+.filter-container select {
+  font-family: cursive;
+  background-color: rgb(160, 237, 168);
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 6px 12px;
+  outline: none;
+  border: 0.5px solid grey;
+}
+
+select option:checked {
+  background-color: #f8df8c;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.view-container h1 {
+  font-family: roboto;
+  color: #404040;
+}
+
+.view-container button {
+  font-family: roboto;
+  color: #fff;
+  font-size: 18px;
+  margin: 20px;
+  padding: 8px 18px;
+  background-color: red;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

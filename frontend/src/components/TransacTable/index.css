@@ -1,0 +1,52 @@
+.table-container {
+  font-family: roboto;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0px 0px 25px rgb(255, 255, 255);
+  font-family: monospace;
+}
+
+th {
+  font-size: 24px;
+  font-weight: bold;
+}
+td {
+  font-size: 12px;
+  font-weight: 300;
+}
+td,
+th {
+  border: 0.5px solid rgba(125, 125, 126, 0.59);
+  padding: 8px;
+}
+
+.product-img {
+  height: 100px;
+  width: 100px;
+}
+
+.pagination-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-container button {
+  background-color:rgba(255, 200, 1, 0.79);
+  padding: 3px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: inherit;
+  cursor: pointer;
+}
+.pagination-container button:hover{
+  background-color: rgba(255, 255, 0, 0.705);
+  padding: 4px 11px;
+  border-radius: 10px;
+}
